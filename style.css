@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+.background-section h3,
+.background-section p {
+  color: #ffffff;
+  /* Change text color to white */
+}
+
+.fixed-top {
+  position: fixed;
+  /* Keep the navbar at the top */
+  top: 0;
+  /* Align it to the top of the page */
+  width: 100%;
+  /* Make it full width */
+  z-index: 1000;
+  /* Ensure it stays above other content */
+}
+
+body {
+  padding-top: 70px;
+  /* Adjust this based on your navbar height */
+}
+
+.col-md-6 {
+  height: 100%;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+body,
+p,
+span,
+div {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.navbar {
+  padding: .2rem;
+}
+
+.navbar-brand img {
+  width: 100px;
+  height: 66.5px;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+
+}
+
+.nav-item-active {
+  font-weight: bold;
+  color: #f2f2f2;
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+
+
+footer {
+  background-color: #082B59;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+
+
+footer a {
+  color: #d5d5d5;
+}
+
+hr.light-100 {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+.footer-image img {
+  width: 150px;
+  height: 60px;
+}
+
+.flex-fill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Center content vertically */
+  align-items: center;
+  /* Center content horizontally */
+  width: 200px;
+  /* Set fixed width */
+  height: 200px;
+  /* Set fixed height */
+  border: 1px solid #ddd;
+  /* Optional: adds a border around each box */
+  border-radius: 8px;
+  /* Optional: adds rounded corners */
+  background-color: #fff;
+  /* Optional: adds a background color */
+  margin: 10px;
+  /* Optional: adds spacing between boxes */
+  padding: 20px;
+  /* Keeps internal padding */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Optional: adds a shadow for depth */
+}
+
+.info-box {
+  background-color: #ffffff;
+  /* Background color of the box */
+  border: 1px solid #ddd;
+  /* Border for the box */
+  border-radius: 5px;
+  /* Rounded corners */
+  padding: 20px;
+  /* Padding inside the box */
+  margin-bottom: 30px;
+  /* Space below the box */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for depth */
+}
+
+.container-fluid {
+  padding: 50px 0;
+}
+
+.form-control {
+  margin-bottom: 20px;
+  /* Space between form fields */
+}
+
+.btn-primary {
+  background-color: #007bff;
+  /* Bootstrap primary color */
+  border-color: #007bff;
+  /* Border color for the button */
+}
+
+
+.image-above-h4 {
+  width: 150px;
+  /* Set a fixed width */
+  height: 150px;
+  /* Set a fixed height */
+  object-fit: cover;
+  /* Ensures the image covers the box without stretching */
+  margin-bottom: 15px;
+  /* Adds space below the image */
+  border-radius: 8px;
+  /* Optional: adds rounded corners to images */
+}
+
+.product-box {
+  background-color: #f2f2f2;
+  /* Dark background for contrast */
+  border-radius: 10px;
+  /* Rounded corners */
+  padding: 20px;
+  /* Padding inside the box */
+  margin: 10px;
+  /* Margin between boxes */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Subtle shadow for depth */
+}
+
+.product-box img {
+  max-width: 150px;
+  /* Responsive image */
+  height: 150px;
+  /* Maintain aspect ratio */
+  border-radius: 10px;
+  /* Match the box rounding */
+}
+
+.text-container {
+  text-align: center;
+  /* Align text to the left */
+  margin-top: 10px;
+  /* Space between image and text */
+}
+
+.custom-button {
+  background-color: #082B59;
+  /* Change this to your desired color */
+  border: none;
+  /* Optional: removes default border */
+  color: #fff;
+  /* Text color */
+}
+
+.custom-button:hover {
+  background-color: #082B59;
+  /* Change this for hover effect */
+}
+
+.image-header {
+  height: 400px;
+  /* Set a desired height for the image */
+  object-fit: cover;
+  /* Ensure the image covers the container without distortion */
+}
+
+/*---Media Queries --*/
+
+
+@media (max-width: 992px) {
+  .social a {
+    font-size: 4em;
+    padding: 2rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    top: 45%;
+  }
+}
+
+.carousel-caption h1 {
+  font-size: 350%;
+}
+
+.carousel-caption h3 {
+  font-size: 140%;
+  font-weight: 400;
+  padding-bottom: 0.2rem;
+}
+
+.carousel-caption .btn {
+  font-size: 95%;
+  padding: 8px 14px;
+}
+
+.display-4 {
+  font-size: 200%;
+}
+
+.display-4 {
+  font-size: 200%;
+}
+
+.social a {
+  font-size: 2.5em;
+  padding: 1.2rem;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+@media (max-width: 576px) {
+  carousel-caption {
+    top: 40%;
+  }
+
+  .carousel-caption h1 {
+    font-size: 250%;
+  }
+
+  .carousel-caption h3 {
+    font-size: 110%;
+  }
+
+  .carousel-caption .btn {
+    font-size: 90%;
+    padding: 4px 8px;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+
+  .display-4 {
+    font-size: 160%;
+  }
+
+  .social a {
+    font-size: 2em;
+    padding: 1.7rem;
+  }
+
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.card-deck {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  flex-grow: 1;
+  /* Makes the body expand to fill the space */
+}
+
+.h-100 {
+  height: 100%;
+  /* Ensure the card stretches fully */
+}
+
+.about-us-title {
+  margin-top: 10px;
+  /* Adjust this value to your preference */
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+/* General Styles */
+.contact-title {
+  color: #082B59;
+  padding-bottom: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .contact-title {
+    font-size: 1.75rem;
+    /* Adjust heading size for tablets */
+  }
+
+  .info-box p {
+    font-size: 1rem;
+    /* Adjust paragraph size */
+  }
+
+  .form-group label {
+    font-size: 1rem;
+    /* Adjust label size */
+  }
+
+  .form-control {
+    font-size: 1rem;
+    /* Adjust input font size */
+  }
+
+  .btn.custom-button {
+    font-size: 1rem;
+    /* Adjust button font size */
+    width: 100%;
+    /* Make the button full width */
+  }
+
+  /* Margin for the form fill-out section on mobile */
+  .row.justify-content-center {
+    margin: 0 15px;
+    /* Add margin on each side */
+  }
+
+  /* Additional spacing adjustments */
+  .form-group {
+    margin-bottom: 15px;
+    /* Space between form elements */
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-title {
+    font-size: 1.5rem;
+    /* Further adjust heading size for mobile */
+  }
+
+  .info-box p {
+    font-size: 0.9rem;
+    /* Further adjust paragraph size for mobile */
+  }
+}
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
